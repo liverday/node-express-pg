@@ -1,0 +1,11 @@
+POST http://localhost:3000/pessoas HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Duda",
+  "age": 13
+}
+
+###
+
+DELETE http://localhost:3000/pessoas/2 HTTP/1.1
